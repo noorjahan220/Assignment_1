@@ -1,3 +1,4 @@
+
 /* banner styles */
 
 .azeret-mono-normal {
@@ -14,6 +15,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    margin-bottom: 80px;
 
 }
 
@@ -55,12 +57,12 @@
 .web-development-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    max-width: 1200px;
     align-items: center;
     padding: 80px 97px;
     border-radius: 16px;
     background-color: rgb(13, 19, 33, 1.5%);
-    margin-top: 60px;
+    margin: 0 auto;
 }
 
 .web-title {
@@ -95,6 +97,7 @@
     font-weight: 600;
     color: rgb(13, 19, 33, 70%);
     background-color: #fff;
+    cursor: pointer;
 
 
 }
@@ -110,6 +113,8 @@
     flex-direction: column;
     justify-content: center;
     gap: 48px;
+    width: 1350px;
+    margin: 0 auto;
 
 }
 
@@ -124,16 +129,21 @@
 
     background-color: rgb(13, 19, 33, 1.5%);
     border-radius: 16px;
-    gap: 10px;
+    
     border: 1px solid rgb(13, 19, 33, 10%);
     display: flex;
     justify-content: center;
-
+    padding: 32px 32px;
+   
 }
 
 
 
 /* target section */
+.target{
+    gap: 48px;
+    margin-bottom: 50px;
+}
 .target-title {
     font-weight: 800;
     font-size: 32px;
@@ -167,4 +177,35 @@
 .card a {
     font-size: 16px;
     font-weight: 700;
+}
+/* support section */
+.support_section{
+    background-image: url(../assets/handshake.jpg);
+    width: 1260px;
+    margin: 0 auto;
+    padding: 48px 64px;
+    gap: 32px;
+    border-radius: 16px;
+}
+.input_section{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px ;
+}
+input[type="text"]{
+    width: 548px;
+    border-radius: 8px;
+   padding: 20px 19px;
+   color: rgb(13, 19, 33,15%);
+   border: 1px;
+   font-size: 16px;
+}
+input[type="submit"]{
+    padding: 20px 17px;
+    width: 120px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
 }
