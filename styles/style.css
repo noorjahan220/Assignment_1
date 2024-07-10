@@ -1,0 +1,46 @@
+/* banner styles */
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    height: 652px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-img{
+    margin-bottom: 20px;
+    height: 240px;
+}
+
+.banner-title {                     
+    font-size: 48px;
+    color: #0D1321;
+    font-weight: bolder;
+    line-height: 68px;
+    width: 32%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-discription{
+    font-size: 18px;
+    line-height: 26px;
+    width: 852px;
+    text-align: center;
+}
+.banner-btn{
+    border-radius: 8px;
+    padding: 21px 24px;
+    margin-top: 10px;
+    align-items: center;
+    background-color: #1C0D21;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
