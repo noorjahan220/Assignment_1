@@ -1,10 +1,9 @@
 /* banner styles */
 
-.azeret-mono-normal{
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: ;
-  font-style: normal;
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .banner {
@@ -15,14 +14,15 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
+
 }
-.banner-img{
+
+.banner-img {
     margin-bottom: 20px;
     height: 240px;
 }
 
-.banner-title {                     
+.banner-title {
     font-size: 48px;
     color: #0D1321;
     font-weight: bolder;
@@ -31,10 +31,13 @@
     text-align: center;
     margin-bottom: 24px;
 }
-.discription{
+
+.discription {
     font-size: 16px;
-    }
-.banner-btn{
+
+}
+
+.banner-btn {
     border-radius: 8px;
     padding: 21px 24px;
     margin-top: 10px;
@@ -44,9 +47,10 @@
     font-size: 20px;
     font-weight: 500;
 }
+
 /* web development section  */
 
-.web-development-section{
+.web-development-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,36 +58,80 @@
     padding: 80px 97px;
     max-width: 1140px;
     border-radius: 16px;
-    background-color: #fbfbff;
+    background-color: rgb(13, 19, 33, 1.5%);
     margin-left: 500px;
     margin-top: 60px;
 }
-.web-title{
+
+.web-title {
     font-size: 32px;
     font-weight: 800;
 }
-.web-development-section .discription{
+
+.web-development-section {
     margin-bottom: 48px;
 }
-.web-parent{
+
+.web-parent {
     display: flex;
     align-items: center;
     gap: 32px;
     background-color: #FFFFFF;
     margin-bottom: 10px;
     border-radius: 16px;
-    padding: 48px 48px ;
-   
-    
-}
-.web-parent .child-title{
-    width: 400px;
-}
-.web-parent .learn-btn{
-    padding: 12px 20px;
-}
-.web-parent img{
-    height: 240px;
-    
+    padding: 48px 48px;
+
+
 }
 
+.web-parent .child-title {
+    width: 400px;
+    color: rgb(13, 19, 33, 70%)
+}
+
+.learn-btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33, 70%);
+    background-color: #fff;
+
+
+}
+
+.web-parent img {
+    height: 240px;
+
+}
+
+/* inspiration section */
+.my-inspiration-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+    margin-left: 580px;
+    gap: 48px;
+
+}
+
+.my-ins-title {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.my-ins-description {
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.YT-video {
+    padding: 32px 32px;
+    background-color: rgb(13, 19, 33, 1.5%);
+    border-radius: 16px;
+    gap: 10px;
+    border: 1px solid rgb(13, 19, 33, 10%);
+}
