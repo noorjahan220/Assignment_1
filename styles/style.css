@@ -34,7 +34,8 @@
 
 .discription {
     font-size: 16px;
-
+    text-align: center;
+    line-height: 26px;
 }
 
 .banner-btn {
@@ -46,6 +47,7 @@
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /* web development section  */
@@ -56,10 +58,8 @@
     justify-content: center;
     align-items: center;
     padding: 80px 97px;
-    max-width: 1140px;
     border-radius: 16px;
     background-color: rgb(13, 19, 33, 1.5%);
-    margin-left: 500px;
     margin-top: 60px;
 }
 
@@ -108,9 +108,7 @@
 .my-inspiration-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 1140px;
-    margin-left: 580px;
+    justify-content: center;
     gap: 48px;
 
 }
@@ -122,16 +120,51 @@
     margin-bottom: 25px;
 }
 
-.my-ins-description {
-    font-size: 16px;
-    text-align: center;
-    line-height: 26px;
-}
-
 .YT-video {
-    padding: 32px 32px;
+
     background-color: rgb(13, 19, 33, 1.5%);
     border-radius: 16px;
     gap: 10px;
     border: 1px solid rgb(13, 19, 33, 10%);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* target section */
+.target-title {
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 150px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.card {
+    width: 364px;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+
+.card h2 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.card p {
+    line-height: 26px;
+}
+
+.card a {
+    font-size: 16px;
+    font-weight: 700;
 }
