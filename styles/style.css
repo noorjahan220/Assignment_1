@@ -209,3 +209,16 @@ input[type="submit"]{
     font-weight: 600;
     cursor: pointer;
 }
+/* footer section */
+.foot_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1310px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 50px 32px;
+    background-color: rgb(13, 19, 33,3%);
+   
+}
