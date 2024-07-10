@@ -1,8 +1,10 @@
 /* banner styles */
-*{
-    margin: 0;
-    padding: 0;
-   
+
+.azeret-mono-normal{
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
 }
 
 .banner {
@@ -12,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     
 }
 .banner-img{
@@ -24,16 +27,13 @@
     color: #0D1321;
     font-weight: bolder;
     line-height: 68px;
-    width: 32%;
+    width: 998px;
     text-align: center;
     margin-bottom: 24px;
 }
-.banner-discription{
-    font-size: 18px;
-    line-height: 26px;
-    width: 852px;
-    text-align: center;
-}
+.discription{
+    font-size: 16px;
+    }
 .banner-btn{
     border-radius: 8px;
     padding: 21px 24px;
@@ -44,3 +44,46 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* web development section  */
+
+.web-development-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 97px;
+    max-width: 1140px;
+    border-radius: 16px;
+    background-color: #fbfbff;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.web-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+.web-development-section .discription{
+    margin-bottom: 48px;
+}
+.web-parent{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    border-radius: 16px;
+    padding: 48px 48px ;
+   
+    
+}
+.web-parent .child-title{
+    width: 400px;
+}
+.web-parent .learn-btn{
+    padding: 12px 20px;
+}
+.web-parent img{
+    height: 240px;
+    
+}
+
